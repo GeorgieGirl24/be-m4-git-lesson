@@ -19,7 +19,7 @@ RSpec.feature "User can see a login" do
     user = User.create(first_name: "John",
                        last_name: "Doe",
                        email: "John@Doe.com",
-                       password: "test",
+                       password: "password",
                        address: "123 House Lane Denver, CO 80231")
     visit login_path
 
