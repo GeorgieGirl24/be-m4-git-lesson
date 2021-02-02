@@ -16,7 +16,7 @@ RSpec.feature "As a non admin" do
                           last_name: 'Unchained',
                           email: 'cool',
                           address: 'wherever',
-                          password: 'django',
+                          password: 'password',
                           role: 0)
       allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
 
